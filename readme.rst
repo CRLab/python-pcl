@@ -14,6 +14,8 @@
       })();
     </script>
 
+After building the setup.py a file _pcl.cpp gets created with an error (a whitespace needs to be added). The error needs to be corrected and then rebuilt.
+
 Introduction
 ============
 
