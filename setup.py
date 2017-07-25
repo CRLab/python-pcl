@@ -31,6 +31,7 @@ pcl_libs = ["common", "features", "filters", "io", "kdtree", "octree",
 pcl_libs = ["pcl_%s%s" % (lib, pcl_version) for lib in pcl_libs]
 
 ext_args = defaultdict(list)
+ext_args['extra_compile_args'].append('-std=c++11') 
 ext_args['include_dirs'].append(numpy.get_include())
 
 
